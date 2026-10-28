@@ -1,0 +1,50 @@
+{
+  "mode": "lenticular",
+  "title": "一念神魔",
+  "subtitle": "一念入仙 · 一念成魔",
+  "technique": "仙骨 · 魔心",
+  "tagline": "同一张面孔，藏着两重天地",
+  "edition": "No.001",
+  "collection": "双生收藏",
+  "description": "白玉云海，赤焰魔域。左右拖动卡面，看同一人物在仙人和魔王之间变换。",
+  "states": {
+    "a": {
+      "label": "仙人",
+      "caption": "仙人 · 云海清光"
+    },
+    "b": {
+      "label": "魔王",
+      "caption": "魔王 · 赤焰临世"
+    }
+  },
+  "lenticular": {
+    "flipAngle": 18,
+    "softness": 0.22,
+    "pitch": 120,
+    "stripe": 0.22,
+    "sweep": 4,
+    "refract": 0.3,
+    "ridge": 0.5,
+    "depth": 0.03,
+    "foil": 1.0,
+    "cycle": false
+  },
+  "effects": {
+    "particles": 1.0,
+    "glow": 0.85
+  },
+  "identity": {
+    "face_box": [
+      332,
+      493,
+      666,
+      819
+    ]
+  },
+  "assets": {
+    "model": "./assets/card.glb",
+    "imageA": "./assets/image_a.webp",
+    "imageB": "./assets/image_b.webp",
+    "text": "./assets/text.webp"
+  }
+}
